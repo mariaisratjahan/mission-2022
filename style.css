@@ -3,12 +3,21 @@ body{
     padding: 0;
     box-sizing: content-box;
 }
+img{
+    display:block;
+    width:100%;
+    height:auto;
+    
+} 
 button{
     padding:5px;
     color:white;
     background-color: rgb(175, 59, 59);
     outline: none;
     border: none;
+}
+.flexible_container{
+    display:flex;
 }
 .banner_heading{
     border-left:2px solid rgb(182, 43, 43);
@@ -22,15 +31,14 @@ h1{
     margin-bottom:5px;
 }
 /* my_mission section */
-.cards{
-    display:flex;
-   
-}
-.card img{
-    display:block;
-    width:100%;
-    height:100%;
+
+
+/* develop section */
+.develop{
+    margin:100px 0;
     
-} 
+}
+
+
 
 
