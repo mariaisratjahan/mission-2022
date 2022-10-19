@@ -1,5 +1,5 @@
 body{
-    margin:0;
+    margin:0 156px;
     padding: 0;
     box-sizing: content-box;
 }
@@ -10,25 +10,57 @@ img{
     
 } 
 button{
-    padding:5px;
+    padding:12px 37.5px;
     color:white;
-    background-color: rgb(175, 59, 59);
+    background-color:#FF5959;
     outline: none;
     border: none;
+    border-radius: 5px;
 }
 .flexible_container{
     display:flex;
 }
+/* -------------------------------- */
+.banner-left{
+    margin-top: 140px;
+    margin-right: 131px;
+}
 .banner_heading{
-    border-left:2px solid rgb(182, 43, 43);
+    border-left:2px solid #FF5959;
     font-size: 25px;
     margin:0;
 }
-h1{
-    margin:0;
+h1{  
+    margin: 0 0 0 13px; 
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+
 }
 .first_heading{
-    margin-bottom:5px;
+    color:#333333;
+}
+.second_heading{
+    color:#FFAD5A;
+}
+.banner-para{
+    /* font-family: Poppins; */
+    width:471px;
+    height:84px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#3E3E3E;
+    margin:15px 0 19px 0;
+    
+
+}
+.banner_img{
+    width:426px;
+    height:623px;
 }
 /* my_mission section */
 
