@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+button{
+    padding:5px;
+    color:white;
+    background-color: rgb(175, 59, 59);
+    outline: none;
+    border: none;
+}
+.banner_heading{
+    border-left:2px solid rgb(182, 43, 43);
+    font-size: 25px;
+    margin:0;
+}
+h1{
+    margin:0;
+}
+.first_heading{
+    margin-bottom:5px;
+}
+/* my_mission section */
+.cards{
+    display:flex;
+}
+img{
+    display:block;
+    height: 50%;
+    background-repeat: no-repeat;
+    
+}
+.card_one{
+    border:2px solid red;
+    
+}
