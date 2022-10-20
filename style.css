@@ -269,6 +269,26 @@ h1{
     
 
 } 
+/* -----footer-------- */
+
+.footer_content{
+    background-color: #0B0D17;
+    text-align: center;
+    color:#FFFFFF;
+    padding:39px 0;
+    
+}
+.footer_content h4{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+}
+.footer_content p{
+    color:#D9DBE1;
+}
 
 
 
