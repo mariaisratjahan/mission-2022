@@ -20,6 +20,9 @@ button{
 .flexible_container{
     display:flex;
 }
+.orange{
+    color:#FFAD5A;
+}
 /* -------------------------------- */
 .banner-left{
     margin-top: 140px;
@@ -63,8 +66,54 @@ h1{
     height:623px;
 }
 /* my_mission section */
+.my_mission{
+    margin:62px 0 86px 0;
+}
+.my_mission h2{
+    /* font-family: Poppins; */
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 0;
 
-
+}
+.cards{
+    margin-top: 48px;
+}
+.card_one{
+    margin-right: 24px;
+    background-color:rgba(79, 157, 166, 0.1); 
+}
+.card_two{
+    margin-right: 24px;
+    background-color:rgba(255, 89, 89, 0.1);
+    
+}
+.card_three{
+    background-color:#FFF4D6 ;
+}
+.card{
+    padding:25px 13px 45px 32px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 26px;
+}
+.card h4{
+    margin: 0;
+    font-size: 24px;
+}
+.card img{
+    width:141px;
+    height:141px;
+    margin:0 0 12px 0;
+}
 /* develop section */
 .develop{
     margin:100px 0;
